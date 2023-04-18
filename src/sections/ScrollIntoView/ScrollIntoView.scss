@@ -1,0 +1,42 @@
+.bg,
+.fg {
+  stroke-width: 5%;
+  fill: none;
+}
+#progress {
+  position: sticky;
+  display: block;
+  margin:0 0 0 auto;
+  top: 30%;
+  right:0;
+  z-index: 0;
+}
+h1.sticky-title {
+  font-size: 50px;
+  position: relative;
+}
+.bg {
+  stroke: orange;
+}
+
+.clip-container {
+  overflow: clip;
+  position: sticky;
+  top: 30%;
+  transform: translateY(-100%);
+  z-index: 1;
+}
+
+.fg {
+  stroke: red;
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transform-origin: 0;
+  background-color: red;
+  z-index: -1;
+  width: 100%;
+}
