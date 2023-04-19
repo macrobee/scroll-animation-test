@@ -1,0 +1,23 @@
+.expanding-circle {
+  border-radius: 50%;
+  background-color: red;
+  color: blue;
+  position: sticky;
+  height: 100px;
+  width: 100px;
+  top: 0;
+  left: 50%;
+  transform-origin: center;
+  overflow: clip;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  will-change: transform;
+}
+#center-text {
+  margin: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}

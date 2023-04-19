@@ -12,7 +12,7 @@ const ScrollAcross: FC<IScrollAcrossProps> = ({ text, imageUrl }) => {
   const container = useRef(null);
 
   const { scrollYProgress } = useScroll({target: container});
-  const imagePosition = useTransform(scrollYProgress, [0,1],[-450,750]);
+  const imagePosition = useTransform(scrollYProgress, [0,1],[`-100%`,`300%`]);
 
   return (
     <div
