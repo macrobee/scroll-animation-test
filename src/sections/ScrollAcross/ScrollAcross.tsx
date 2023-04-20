@@ -20,7 +20,7 @@ const ScrollAcross: FC<IScrollAcrossProps> = ({ text, imageUrl }) => {
       className="section-container section-container_secondary-color no-overflow"
     >
       <motion.h1 >{text}</motion.h1>
-      <motion.img className="moving-image" style={{ translateX: imagePosition }} src={imageUrl} alt="bike scrolling across screen" />
+      <motion.img className="moving-image" style={{ translateX: imagePosition, translateY:`-50%` }} src={imageUrl} alt="bike scrolling across screen" />
     </div>
   );
 };
