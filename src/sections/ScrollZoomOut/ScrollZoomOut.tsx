@@ -25,12 +25,10 @@ const ScrollZoomOut: FC<IScrollZoomOutProps> = ({ text }) => {
 
   useMotionValueEvent(maskPosition, "change", (value) => {
     setCirclePosition(value);
-    console.log(`maskPosition changed to ${value}`);
   });
 
   useMotionValueEvent(circleSize, "change", (value) => {
     setCircleSizePercent(value);
-    console.log(`radial gradient size changed to ${value}`);
   });
 
   return (
