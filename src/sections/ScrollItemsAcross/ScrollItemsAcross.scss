@@ -1,0 +1,21 @@
+.sticky-container {
+  position: sticky;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.scrolling-item {
+  &_1,
+  &_2 {
+    position: absolute;
+    font-size:48px;
+    font-family:'Roboto', sans-serif;
+  }
+  &_1 {
+    left: 0;
+    transform: translateY(50%);
+  }
+  &_2 {
+    right: 0;
+    transform: translateY(-50%);
+  }
+}

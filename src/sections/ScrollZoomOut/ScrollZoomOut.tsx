@@ -44,7 +44,23 @@ const ScrollZoomOut: FC<IScrollZoomOutProps> = ({ text }) => {
           className="mask-container"
         >
           <div className="noise-container">
-            <p>
+          <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
+              consequatur ipsum illum iusto illo voluptatem veniam nam veritatis
+              debitis, ad pariatur ducimus eos. Suscipit voluptatibus enim
+              similique, vel molestias optio!Lorem ipsum dolor sit, amet
+              consectetur adipisicing elit. Totam consequatur ipsum illum iusto
+              illo voluptatem veniam nam veritatis debitis, ad pariatur ducimus
+              eos. Suscipit voluptatibus enim similique, vel molestias optio!
+            </p><p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
+              consequatur ipsum illum iusto illo voluptatem veniam nam veritatis
+              debitis, ad pariatur ducimus eos. Suscipit voluptatibus enim
+              similique, vel molestias optio!Lorem ipsum dolor sit, amet
+              consectetur adipisicing elit. Totam consequatur ipsum illum iusto
+              illo voluptatem veniam nam veritatis debitis, ad pariatur ducimus
+              eos. Suscipit voluptatibus enim similique, vel molestias optio!
+            </p><p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
               consequatur ipsum illum iusto illo voluptatem veniam nam veritatis
               debitis, ad pariatur ducimus eos. Suscipit voluptatibus enim

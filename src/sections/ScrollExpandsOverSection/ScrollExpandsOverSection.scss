@@ -1,0 +1,10 @@
+.image-container{
+    position: sticky;
+    inset:0;
+    height:100svh;
+    width:100%;
+    overflow:clip;
+    img{
+        object-fit:fill;
+    }
+}
